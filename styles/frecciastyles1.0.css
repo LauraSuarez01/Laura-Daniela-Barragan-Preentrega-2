@@ -6,20 +6,28 @@
     background-color: #fce3e3;
 }
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 10xp 0px;
     margin: 2% 50%;
     display: flex;
     justify-content: center;
+    background-color: #fce3e3;
 }
-.barra-container {
+.nav {
     display: flex;
     justify-content:space-around;
     color:#360101;
     text-decoration: none;
-    background-color:#ffffff;
+    background-color:#fce3e3;
     font-family: kalnia;
+    padding: 20px 0px;
+}
+.nav-item {
+    background-color: #fce3e3;
+    display: flex;
+    color: #360101;
+    padding: 0px 10px;
 }
 .barra {
     display: flex;
