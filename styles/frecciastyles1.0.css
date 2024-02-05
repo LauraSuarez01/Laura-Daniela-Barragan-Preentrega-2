@@ -23,6 +23,21 @@
     font-family: kalnia;
     padding: 20px 0px;
 }
+
+@media screen and (max-width: 480px) {
+    #body {
+        grid-template-rows:  100px 1fr 60px;
+        grid-template-columns: repeat(1, 1fr);
+
+        grid-template-areas:
+        'nav nav nav nav'
+        'textointroductorio'
+        'banner-inicial'
+        'parrafo1-container'
+        'cardscontainer-grid'
+         ;
+    }
+}
 .nav-item {
     background-color: #fce3e3;
     display: flex;
@@ -85,6 +100,18 @@
     align-content:flex-start;
     grid-template-areas: 
     "branding socialmedia marketing";
+    padding: 30px 30px;
+}
+.card1 {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 30px 30px;
+}
+.card2 {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 30px 30px;
+}
+.card3 {
+    border: 1px solid rgb(219, 219, 219);
     padding: 30px 30px;
 }
 
