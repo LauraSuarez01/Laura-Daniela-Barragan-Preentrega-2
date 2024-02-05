@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    body {
+    #body {
         grid-template-rows:  100px 1fr 60px;
         grid-template-columns: repeat(1, 1fr);
 
@@ -92,7 +92,7 @@
 }
 .cardscontainer-grid {
     font-family: red hat display;
-    display: grid;
+    display: flex;
     justify-content: center;
     grid-template-rows: repeat (3, 600px);
     grid-template-columns:repeat (3, 1fr);
@@ -126,41 +126,61 @@ footer {
     background-color: white;
     color: #360101;
 }
+
+@media screen and (max-width: 480px) {
+    .cardgrid-mobile {
+        grid-template-rows:  100px 3fr 100px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        'card'
+        'card'
+        'card'
+         ;
+         flex-direction: column !important;
+    }
+}
 /*Aquí finaliza el inicio*/
 /*Aquí inicia nosotros*/
 
 .intro-nosotros {
-    padding: 50px 50px;
+    margin:10px 30px 10px 30px;
     text-align: center;
     font-size: 20pt;
     color:#360101;
     font-family: red hat display;
+    background-color: white;
 }
 .titulo-nosotros {
     text-align: center;
     font-size: 24pt;
     color:#360101;
-    border: 3px solid white;
     padding: 40px 150px;
     font-family: kalnia;
+    background-color: white;
+}
+.texto-nosotros {
+    background-color: white;
+    padding: 10px 30px;
 }
 .laurah-container { 
     display: flex;
     justify-content: space-around;
     padding: 100px 100px;
     text-align: center;
-    font-size: 20pt;
+    font-size: 16pt;
     color:#360101;
     font-family: red hat display;
 }
+.laurah-p {
+    padding: 0px 30px;
+}
 .laurah-img {
-    width: 300px;
-    height: 500px;
+    width: 400px;
+    height: 600px;
     padding:30px 30px 30px 30px;
     margin: 10px 30px 0px ;
     display: flex;
     justify-content: flex-start;
-    border: 3px double white;
 }
 h2 {
     text-align: center;
@@ -175,10 +195,14 @@ h2 {
     justify-content: space-around;
     padding: 100px 100px;
     text-align: center;
-    font-size: 20pt;
+    font-size: 16pt;
     color:#360101;
     font-family: red hat display;
 }
+.lauras-p {
+    padding: 0px 30px;
+}
+
 .lauras-img {
     width: 400px;
     height: 600px;
@@ -186,7 +210,7 @@ h2 {
     margin: 10px 30px ;
     display: flex;
     justify-content: flex-start;
-    border: 3px double white;
+
 }
 /*Aquí finaliza nosotros*/
 /*Aquí inicia servicios*/
