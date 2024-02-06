@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    #body {
+    #body1 {
         grid-template-rows:  100px 1fr 60px;
         grid-template-columns: repeat(1, 1fr);
 
@@ -50,7 +50,7 @@
     justify-content: space-around;
     text-decoration: none;
     font-size: 18pt;
-    padding: 10px 1000px;
+    padding: 10px 100px;
     font-family: kalnia;
 }
 .Introduccion {
@@ -88,8 +88,10 @@
     background-color: white;
     padding: 10px 30px;
     margin: 30px 0px;
-
+    font-family: kalnia;
+    text-align: center;
 }
+
 .cardscontainer-grid {
     font-family: red hat display;
     display: flex;
@@ -225,9 +227,9 @@ footer {
     font-size: 30pt;
     color:#360101;
     border: 3px solid white;
+    border-radius: 30px;
     padding: 40px 150px;
     font-family: kalnia;
-    background-color: white;
 }
 .sm-container {                   /*container*/
     display: flex;
