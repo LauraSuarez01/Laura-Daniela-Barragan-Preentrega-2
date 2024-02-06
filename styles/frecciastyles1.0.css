@@ -222,11 +222,12 @@ footer {
 }
 .titulo-servicios {
     text-align: center;
-    font-size: 24pt;
+    font-size: 30pt;
     color:#360101;
     border: 3px solid white;
     padding: 40px 150px;
     font-family: kalnia;
+    background-color: white;
 }
 .sm-container {
     display: flex;
@@ -236,23 +237,28 @@ footer {
     font-size: 20pt;
     color:#360101;
     font-family: red hat display;
+    
 }
 .sm-img {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     padding:30px 30px 30px 30px;
     margin: 10px 30px 0px ;
     display: flex;
     justify-content: flex-start;
+    background-color: white;
+    
 }
 .sub-servicios {
     text-align: center;
-    font-size: 24pt;
+    font-size: 30pt;
     color:#360101;
     padding: 40px 40px 40px 40px;
-    background-color: white;
+    margin: auto;
+    font-family: red hat display;
+    border: 3px solid white;
 }
-.boton {
+.btn {
     display: flex;
     justify-content: right;
     font-size: 24pt;
@@ -261,11 +267,13 @@ footer {
     margin: 10px 10px 10px 10px;
     font-family: kalnia;
 }
+
 h3 {
     background-color:#360101;
     padding: 20px 30px 20px 30px;
     margin: 10px 10px 10px 10px;
     font-family: kalnia;
+    
 }
 .brand-container {
     display: flex;
@@ -275,14 +283,17 @@ h3 {
     font-size: 20pt;
     color:#360101;
     font-family: red hat display;
+
 }
 .brand-img {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     padding:30px 30px 30px 30px;
     margin: 10px 30px 0px ;
     display: flex;
     justify-content: flex-start;
+    background-color: white;
+    
 }
 .mark-container {
     display: flex;
@@ -292,15 +303,20 @@ h3 {
     font-size: 20pt;
     color:#360101;
     font-family: red hat display;
+    
 }
 .mark-img {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     padding:30px 30px 30px 30px;
     margin: 10px 30px 0px ;
     display: flex;
     justify-content: flex-start;
+    background-color: white;
+
+    
 }
+
 /*Aquí finalizo servicios*/
 /*Aquí inicio proyectos*/
 
