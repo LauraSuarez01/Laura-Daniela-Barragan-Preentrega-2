@@ -94,7 +94,7 @@
 
 .cardscontainer-grid {
     font-family: red hat display;
-    display: flex;
+    display: grid;
     justify-content: center;
     grid-template-rows: repeat (3, 600px);
     grid-template-columns:repeat (3, 1fr);
@@ -244,59 +244,51 @@ footer {
     font-family: kalnia;
 }
 
-    
 
 /*Aquí finalizo servicios*/
 /*Aquí inicio proyectos*/
 
-h1 {
+.titulo-inicial {
     text-align: center;
     font-size: 24pt;
     color:#360101;
     padding: 40px 40px 40px 40px;
-    font-family: kalnia;
-}
-.sm-proyectos {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 50px;
-    text-align: center;
-    font-size: 20pt;
-    color:#360101;
-    font-family: red hat display;
-}
-.rd1{
-    width:500px ;
-    height:300px ;
-    padding: 30px 30px;
-}   
-.rd2{
-    width:500px ;
-    height:300px ;
-    padding: 30px 30px;
-}
-.rd3{
-    width:500px ;
-    height:300px ;
-    padding: 30px 30px;
-}
-.sub-proy {
+    font-family: kalnia; 
     background-color: white;
 }
-.bd1{
-    width:500px ;
-    height:300px ;
-    padding: 30px 30px;
-}   
-.bd2{
-    width:500px ;
-    height:300px ;
+
+.img-p1 {
+    width:600px;
+    height:320px;
+}
+.img-p2 {
+    width:600px ;
+    height:320px;  
+}
+.img-p3 {
+    width:600px ;
+    height:320px;
+}
+.p-info {
+    font-family: red hat display;
+    font-size:18pt;
+    background-color: white;
     padding: 30px 30px;
 }
-.bd3{
-    width:500px ;
-    height:300px ;
+.titulo-proy {
+    font-family: kalnia;
+    text-align: center;
     padding: 30px 30px;
+}
+
+#sm-proyectos {
+    display: grid;
+    grid-template-rows: 3, 1fr;
+    grid-template-columns: repeat(3 200px);
+    gap: 40px;
+    align-content:space-between;
+    grid-template-areas:
+    'img-p1 img-p2 img-p3';
 }
 .parrafo1 {
     text-align: center;
@@ -304,7 +296,6 @@ h1 {
     color:#360101;
     padding: 40px;
     margin: 30px 50px;
-    border: 5px solid white;
     font-family: red hat display;
 }
 /*Aquí finaliza proyectos*/
