@@ -360,5 +360,46 @@ form {
     display: inline;
     margin: 50px 500px 50px 500px;
 }
-
+/*mobile*/
+@media screen and (max-width: 480px) {
+    .form-mobile {
+        padding: 70px;
+        margin: 0px;
+        justify-content: center;
+        grid-template-rows:  1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'mb-3' 
+        'mb-3' 
+        'mb-3';
+        gap: 90px;
+        grid-template-columns: min-content;
+    }
+    .parrafo-contacto {
+        font-size: 18pt;
+        padding: 20px 20px 20px 20px;
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+    .form-mobile{
+        padding: 70px;
+        margin: 0px;
+        justify-content: center;
+        grid-template-rows:  1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'mb-3' 
+        'mb-3' 
+        'mb-3';
+        gap: 90px;
+        grid-template-columns: min-content;
+    }
+    .parrafo-contacto {
+        font-size: 20pt;
+        padding: 20px 20px 20px 20px;}
+     .form-label {
+        font-size: 24px;
+     }
+}
 /*Aquí finaliza contacto*/
