@@ -144,61 +144,50 @@ footer {
 
 
 /*Aquí finaliza el inicio*/
+
 /*Aquí inicia nosotros*/
-.intro-nosotros {
-    text-align: center;
-    font-size: 20pt;
-    color:#360101;
-    font-family: red hat display;
-    background-color: white;
-}
 .titulo-nosotros {
     text-align: center;
-    font-size: 24pt;
+    font-size: 26pt;
     color:#360101;
-    padding: 40px 150px;
     font-family: kalnia;
-    background-color: white;
 }
+
 .texto-nosotros {
-    background-color: white;
-    padding: 10px 30px;
-    margin: 10px 30px;
+    text-align: center;
+    font-size: 18pt;
+    color:#360101;
+    font-family: red hat display;
 }
+
 .titulos-lauras {
     text-align: center;
     font-size: 24pt;
     color:#360101;
-    padding: 40px 40px 40px 40px;
     font-family: kalnia;
 } 
 .lauras-container { 
     display: flex;
     justify-content: space-around;
-    padding: 100px 100px;
     text-align: center;
     font-size: 14pt;
     color:#360101;
     font-family: red hat display;
-    margin: 50px 300px 50px 300px;
 }
 .lauras-p {
     padding: 0px 30px;
     margin: 50px 50px;
-    border: 1px solid white;
     border-radius: 20px;
 }
-
 .lauras-img {
     width: 300px;
     height: 400px;
-    padding:30px 30px 30px 30px;
-    margin: 10px 30px ;
     display: flex;
     justify-content: flex-start;
-
 }
+
 /*Aquí finaliza nosotros*/
+
 /*Aquí inicia servicios*/
 
 .intro-servicios {            /*container*/
@@ -255,6 +244,7 @@ footer {
 
 
 /*Aquí finalizo servicios*/
+
 /*Aquí inicio proyectos*/
 
 .titulo-inicial {
@@ -315,6 +305,7 @@ footer {
 }
 
 /*Aquí finaliza proyectos*/
+
 /*Aquí inicia contacto*/
 .sub-proy {
     font-family: kalnia;
