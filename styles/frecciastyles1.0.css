@@ -30,6 +30,22 @@
     padding: 0px 40px;
     font-size: 28px;
 }
+.nav:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.textointroductorio:hover::before {
+    content: '💟' ;
+}
+.textointroductorio:hover::after {
+    content: '💟' ;
+}
+.inicio-servicios:hover:before {
+    content: '💻';
+}
+
 .barra {
     display: flex;
     justify-content: space-around;
@@ -156,6 +172,9 @@ footer {
     background-color:white;
     padding: 30px;
 }
+.titulo-nosotros:hover:before {
+    content: '✨';
+}
 
 .texto-nosotros {
     display: flex;
@@ -230,6 +249,9 @@ footer {
     padding: 40px 150px;
     font-family: kalnia;
 }
+.titulo-servicios:hover:before {
+    content: '💫';
+}
 .sm-container {                   /*container*/
     display: flex;
     justify-content: space-around;
@@ -278,7 +300,9 @@ footer {
     padding: 40px 40px 40px 40px;
     font-family: kalnia; 
 }
-
+.titulo-inicial:hover:before {
+    content: '💡';
+}
 .img-p1 {
     width:500px;
     height:320px;
@@ -336,6 +360,10 @@ footer {
     text-align: center;
     padding: 30px 30px 30px 30px;
 }
+.sub-proy:hover::before {
+    content: '📞';
+}
+
 .parrafo-contacto {
     font-family: red hat display;
     text-align: center;
